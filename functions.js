@@ -90,6 +90,10 @@ function divide(x,y){
  * @return {number} squared
  */
 
+function square(n){
+	newNum = n*n;
+	return newNum;
+}
 
 /**
  * Performs a mathematical operation on two numbers.

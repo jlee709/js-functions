@@ -41,6 +41,11 @@
  * @return {number} the sum
  */
 
+ function add(x,y){
+ 	var newNum = x + y;
+ 	return newNum;
+ }
+
 
 /**
  * Subtracts the second number from the first.

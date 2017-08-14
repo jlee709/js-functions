@@ -79,6 +79,10 @@ function subtract(x,y){
  * @return {number} the quotient
  */
 
+function divide(x,y){
+	newNum = x/y;
+	return newNum;
+}
 
 /**
  * Multiplies a number by itself.

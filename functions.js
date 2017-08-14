@@ -203,6 +203,10 @@ function calculate(choice,x,y){
  * @return {number} the largest number
  */
 
+ 	function maximum(x,y){
+ 		bigNum = Math.max(x,y);
+ 		return bigNum;
+ 	}
 
 /**
  * Returns true if `n` is even.

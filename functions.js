@@ -54,6 +54,10 @@
  * @return {number} the difference
  */
 
+function subtract(x,y){
+	var smallNum = x - y;
+	return smallNum;
+}
 
 /**
  * Multiplies two numbers.

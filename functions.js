@@ -191,6 +191,10 @@ function calculate(choice,x,y){
  * @return {number} the smallest number
  */
 
+ 	function minimum(x,y){
+ 		tinyNum = Math.min(x,y);
+ 		return tinyNum;
+ 	}
 
 /**
  * Returns the largest value of two numbers.

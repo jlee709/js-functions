@@ -4,12 +4,22 @@
  * @return {string} the number as a string
  */
 
+ function numberToString(number){
+ 	var string = number.toString();
+ 	return string;
+ }
+
 
 /**
  * Adds one to a given number.
  * @param {number} n
  * @return {number}
  */
+
+  function increase(number){
+	newNum = number + 1;
+	return newNum;
+}
 
 
 /**

@@ -28,6 +28,11 @@
  * @return {number}
  */
 
+ function decrease(number){
+ 	newNum = number - 1;
+ 	return newNum;
+ }
+
 
 /**
  * Adds two numbers.

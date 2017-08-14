@@ -227,6 +227,14 @@ function calculate(choice,x,y){
  * @return {boolean} the number is odd
  */
 
+ 	function isOdd(n){
+ 		if(n%2!=0){
+ 			return true;
+ 		}else{
+ 			return false;
+ 		}
+ 	}
+
 
 /**
  * Returns a letter grade.

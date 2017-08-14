@@ -104,6 +104,38 @@ function square(n){
  * @return {number} the result
  */
 
+function calculate(choice,x,y){
+	var finalNum;
+
+	switch(choice){
+
+		case 'add':
+			finalNum = x+y;
+			console.log(x + ' + ' + y + ' = ' + finalNum);
+			return finalNum;
+			break;
+
+		case 'subtract':
+			finalNum = x-y;
+			console.log(x + ' - ' + y + ' = ' + finalNum);
+			return finalNum;
+			break;
+		case 'multiply':
+			finalNum = x*y;
+			console.log(x + ' * ' + y + ' = ' + finalNum);
+			return finalNum;
+			break;
+
+		case 'divide':
+			finalNum = x/y;
+			console.log(x + ' / ' + y + ' = ' + finalNum);
+			return finalNum;
+			break;
+
+		default:
+			console.log("Error, where are the nums?");
+	}
+}
 
 /**
  * Returns true if `a` is greater than `b`.

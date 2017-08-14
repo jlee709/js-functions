@@ -160,6 +160,13 @@ function calculate(choice,x,y){
  * @return {boolean} `a` is smaller than `b`
  */
 
+ 	function isLessThan(a,b){
+ 		if(a < b){
+ 			return true;
+ 		}else{
+ 			return false;
+ 		}
+ 	}
 
 /**
  * Returns true if `a` and `b` are equal.
@@ -167,6 +174,14 @@ function calculate(choice,x,y){
  * @param {number} b
  * @return {boolean} the numbers are equal
  */
+
+ 	function areEqual(a,b){
+ 		if(a === b){
+ 			return true;
+ 		}else{
+ 			return false;
+ 		}
+ 	}
 
 
 /**

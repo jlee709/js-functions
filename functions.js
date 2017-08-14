@@ -66,6 +66,11 @@ function subtract(x,y){
  * @return {number} the product
  */
 
+ function multiply(x,y){
+ 	var newNum = x * y;
+ 	return newNum;
+ }
+
 
 /**
  * Divides the first number by the second.

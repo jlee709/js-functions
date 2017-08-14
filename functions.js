@@ -144,6 +144,14 @@ function calculate(choice,x,y){
  * @return {boolean} `a` is larger than `b`
  */
 
+ function isGreaterThan(a,b){
+ 	if(a > b){
+ 		return true;
+ 	}else{
+ 		return false;
+ 	}
+ }
+
 
 /**
  * Returns true if `a` is less than `b`.

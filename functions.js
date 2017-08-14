@@ -54,7 +54,7 @@
  * @return {number} the difference
  */
 
-function subtract(x,y){
+function subtract(xg,y){
 	var smallNum = x - y;
 	return smallNum;
 }

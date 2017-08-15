@@ -305,3 +305,25 @@ function calculate(choice,x,y){
  * @return {object} circle
  */
 
+
+
+ 		/* equations */
+
+	/* c = 2pi*r */ /* 2pi R^2 */
+
+function createCircle(radius,area){
+	
+	var circle = {};
+
+	circle.circumference = (2 * Math.PI * radius);
+	circle.area = (Math.PI * radius * radius); 
+		return circle;
+};
+
+
+
+
+
+
+
+

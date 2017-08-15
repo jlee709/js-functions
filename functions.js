@@ -291,6 +291,11 @@ function calculate(choice,x,y){
  * @return {string} joined the words joined with a space
  */
 
+ function combine(word1,word2){
+ 	string = word1 + " " + word2;
+ 	return string;
+ }
+
 
 /**
  * Returns a circle object with the properties `circumference` and `area`.

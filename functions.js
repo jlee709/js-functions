@@ -273,6 +273,16 @@ function calculate(choice,x,y){
  * @return {object} restaurant
  */
 
+ 	function incrementReviews(restaurant){
+ 			if(restaurant.reviews){
+ 				restaurant.reviews = restaurant.reviews + 1;
+ 			}else{
+ 				restaurant.reviews = 1;
+ 			} 
+ 			return restaurant;
+ 	}
+
+
 
 /**
  * Joins two strings with a space.

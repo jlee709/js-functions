@@ -248,6 +248,22 @@ function calculate(choice,x,y){
  * @return {string} the score represented as a letter grade
  */
 
+ function letterGrade (score, total) {
+ 	var theGrade = score / total * 100;
+	if (theGrade < 60) {
+		return "F";
+	} else if (theGrade < 70) {
+		return "D";
+	} else if (theGrade < 80) {
+		return "C";
+	} else if (theGrade < 90) {
+		return "B";
+	} else {
+		return "A";
+	}
+};
+
+
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
